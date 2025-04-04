@@ -1,0 +1,22 @@
+Phone_number = input("*Enter recipient phone number:")
+Amount = input("Enter amount to send:")
+print("recipient phone number:" + Phone_number)
+print("Amount" + Amount)
+password = input("Enter password:")
+if password == "2000":
+    print("transcation successful!")
+else :
+    print("wrong password")
+a = 30
+b = 40
+if a<b:
+    print("a is less than b") 
+else:
+    print("a is greater than b")
+A = 100
+B = 100
+if A>B:
+    print("A is greater than B")
+elif A==B:
+    print("A and B are equal")
+
