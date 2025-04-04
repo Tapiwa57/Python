@@ -21,10 +21,10 @@ print(get_grade(87))
 print(get_grade(50))
 
 def Show_balance():
-   print(f"Balance in account ${balance}")
+   print(f"Balance in account ${balance}: ")
 
 def Deposit():
-   pass
+   
 
 def Withdrawal():
    pass
@@ -46,5 +46,7 @@ elif choice == "2":
    Deposit
 elif choice == "3":
    Withdrawal
+elif choice == "4":
+   running =False
 else:
-     running = False
+     print("invalid number")
