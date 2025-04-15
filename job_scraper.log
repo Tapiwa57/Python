@@ -1,0 +1,8 @@
+2025-04-14 10:14:13,004 - INFO - Job scraping started.
+2025-04-14 10:14:15,381 - INFO - Successfully fetched the main job listings page.
+2025-04-14 10:14:15,561 - INFO - Saved 10 job listings to vacancymail_jobs_20250414_101415.csv
+2025-04-14 10:14:15,561 - INFO - Job scraping completed.
+2025-04-14 10:19:42,092 - INFO - Job scraping started.
+2025-04-14 10:19:58,237 - INFO - Successfully fetched the main job listings page.
+2025-04-14 10:19:58,477 - INFO - Saved 10 job listings to vacancymail_jobs_20250414_101958.csv
+2025-04-14 10:19:58,478 - INFO - Job scraping completed.

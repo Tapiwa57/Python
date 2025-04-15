@@ -1,0 +1,4 @@
+2025-04-14 09:59:37,547 - INFO - Job scraping started.
+2025-04-14 09:59:39,831 - INFO - Successfully fetched the main job listings page.
+2025-04-14 09:59:39,870 - WARNING - No job data to save.
+2025-04-14 09:59:39,870 - INFO - Job scraping completed.
