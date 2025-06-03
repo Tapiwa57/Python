@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;      
+    padding:0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: gray;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+
+.photo-container{
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+img{
+    width: 200px;
+}
+

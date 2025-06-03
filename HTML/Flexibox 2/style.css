@@ -1,0 +1,95 @@
+
+
+header{
+    background-image: url(pics/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 1000px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300px;
+    font-weight: 900;
+}
+
+p{
+    font-size:  100px;
+}
+
+button{
+    font-size: 48px;
+    background-color: rgb(73, 164, 243);
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.section-1{
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 200px 200px;
+    text-align: center;
+
+}
+h2{
+    font-size: 150px;
+}
+
+h3{
+    font-size: 75px;
+    color: gray;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.section-2{
+    background-color:rgb(27, 197, 216) ;
+
+}
+
+.section-2 .service{
+    text-align: center;
+}
+.service h2{
+    font-size: 80px;
+    color: orange;
+}
+.service h1{
+    font-size: 150px;
+    color: white;
+}
+.p1{
+    font-size: 100px;
+}
+
+.frame-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.frame-container img{
+    width: 50%;
+    height: 25vh;
+}
+
+.section-3{
+    background-image: url(pics/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-position: center;
+    background-size: cover;
+    padding: 500px;
+}
+
+.section-3 .welcome{
+    text-align: center;
+}
