@@ -93,3 +93,79 @@ h3{
 .section-3 .welcome{
     text-align: center;
 }
+
+.frames-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 50%;
+    height: 50vh;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.frame-1{
+    background-image: url(./pics/portfolio-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: auto;
+}
+
+.frame-2{
+    background-image: url(./pics/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: auto;
+}
+
+.frame-3{
+    background-image: url(./pics/joanna-kosinska-BteMcldTQVo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: auto;
+}
+
+.frame-4{
+    background-image: url(./pics/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: auto;
+}
+
+.service h2{
+    text-align: center;
+}
+
+.service h1{
+    text-align: center;
+    color: black;
+}
+
+.p2 {
+margin-top: 75%;
+margin-left: 5%;
+color: white;
+font-size: 40px;
+}
+
+.p3 {
+color: white;
+font-size: 35px;
+margin-left: 5%
+}
+.button-container{
+    text-align: center;
+    padding: 10%;
+
+}
+.below{
+    font-size: 150px;
+;
+}
+
