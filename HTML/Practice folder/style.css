@@ -32,3 +32,19 @@ img{
     width: 200px;
 }
 
+.prac-container{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+
+.prac-container >div{
+    
+    width: 100px;
+    line-height: 75px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+    gap: 20px;
+}

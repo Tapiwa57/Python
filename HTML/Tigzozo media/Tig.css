@@ -1,0 +1,366 @@
+*{
+    padding: 0%;
+    margin: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0f0f0;
+    color: #000;
+    transition: background-color 0.3;
+}
+
+body.dark-mode{
+    background-color: #333;
+    color: #fff;
+}
+#dark-mode-toggle {
+    cursor: pointer;
+    padding: 0.5em 1em;
+}
+body.dark-mode #dark-mode-toggle{
+    background-color: #444;
+    color:#fff
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.section-1{
+    display: flex;
+    background-color: none;
+    max-width: 100%;
+}
+ .purple{
+    background-color: #742296;
+    padding: 10px;
+    color: white;
+    border: none;
+ }
+ .white{
+    padding: 5px;
+    border: 5px solid;
+    border-color: #742296;
+ }
+.hero-container{
+    background-color: none;
+    display: flex;
+    justify-content:space-between;
+    padding: 1%;
+    max-width: 100%;
+
+}
+
+.part-1{
+    display: flex;
+    justify-content: flex-start;
+    align-content: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 150px;
+    max-width: 40%;
+    font-size: larger;
+}
+.Purwhi{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+.part-2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    height: auto;
+    gap: 5px;
+}
+
+.part-2 img{
+    max-width: 20%;
+    height: auto;
+    gap: 10px;
+}
+
+.pic91{
+    margin-top: 60px;
+    margin-bottom: -60px;
+}
+
+.icon{
+    float: left;
+    width: 5%;
+    height: 5%;
+    
+}
+
+.section-2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: none;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.About-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: none;
+    margin-left: 10px;
+}
+
+.part-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 90%;
+    background-color: none;
+}
+
+.Pic95{
+    width: 40%;
+    height: 60vh;
+    margin-top: 55px;
+}
+
+.Pic96{
+    width: 40%;
+    height: 60vh;
+    margin-top: 185px;
+}
+
+.p1{
+    padding: 20px 80px 20px 0px;
+}
+
+h2{
+    padding: 80px;
+
+}
+.section-3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+    
+}
+.Pic97{
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.frame1{
+    background-image: url(\IMG-20250605-WA0090.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 80vh;
+}
+
+.frame2{
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 80vh;
+    background-color: #742296;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+}
+
+.Group36{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.frame3{
+    background-image: url(\Rectangle-66.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 80vh;  
+}
+
+.frame3 h3{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    margin-left: 115px;
+    margin-bottom: 200px;
+    font-weight: 900;
+    color: white;
+}
+
+.frame1 h3{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    margin-left: 115px;
+    margin-bottom: 200px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: none;
+}
+
+.what-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: none;
+    gap: 100px;
+
+}
+
+.part-5{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.part-6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 50%;
+    margin-top: -200px;
+}
+
+.Pic98{
+    width: 100%;
+    height: 50vh;
+}
+
+.section-4 h2{
+    margin-left: -700px;
+}
+
+.section-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.instagram-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width:100%;
+}
+
+.Pic100{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    height: 75vh;
+    gap: 10px;
+}
+
+.Pic100 img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 10%;
+}
+
+#Pic101{
+    margin-top: 60px;
+    margin-bottom: -60px;
+}
+
+.section-6{
+    background-color: #742296;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.foot-container{
+    background-color: #742296;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    gap: 100px;
+    padding: 20px 50px 20px 50px;
+}
+
+.tigzozo{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 50px 0px 50px;
+}
+
+.Purple{
+    border-style:none ;
+    background-color: #742296;
+    padding: 15px;
+    color: white;
+}
