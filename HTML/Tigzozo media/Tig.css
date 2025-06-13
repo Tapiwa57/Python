@@ -1,7 +1,7 @@
 *{
     padding: 0%;
     margin: 0px 0px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Josefin Sans', sans-serif
 }
 
 body{
@@ -13,19 +13,22 @@ body{
 body.dark-mode{
     background-color: #333;
     color: #fff;
+
 }
 #dark-mode-toggle {
     cursor: pointer;
-    padding: 0.5em 1em;
+
+}
+header .dark{
+    width: 30px;
 }
 body.dark-mode #dark-mode-toggle{
     background-color: #444;
     color:#fff
 }
-
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -363,4 +366,68 @@ h2{
     background-color: #742296;
     padding: 15px;
     color: white;
+}
+
+@media(max-width:768px){
+    header img{
+        width:100px
+    }
+
+    header button{
+        width: 5px;
+    }
+
+    nav ul{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .part-1 h1{
+        font-size: 15px;
+    }
+
+    .part-1 p{
+        font-size: 12px;
+    }
+
+
+    .Purwhi button{
+        font-size:8px ;
+        padding: 4px;
+    }
+
+    .part-2{
+        width: 80%;
+    }
+
+    .Icon .icons{
+        font-size: 10px;
+        
+    }
+
+    .section-2 h2{
+        font-size: 17px;
+    }
+
+    .About-container img{
+        width: 100%;
+    }
+
+    .About-container .Pic95 .Pic96{
+        width: 100px;
+        height: 50px;
+    }
+
+    .part-3 .p1{
+        font-size: 5px;
+    }
+
+    .part-4 img{
+        width: 100%;
+    }
+
+ 
 }

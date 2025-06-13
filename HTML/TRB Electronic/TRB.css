@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0%;
+    background-color: #E0E0E0;
 }
 
 nav{
@@ -88,4 +89,126 @@ li{
     color: #084177;
 }
 
+.section-2{
+    font-display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+}
+
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    color: #084177;
+    font-size: 24px;
+}
+
+.categories-container{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    height: auto;
+    font-size: x-large;
+}
+
+.categories-container img{
+    width: 72%;
+    height: auto;
+}
+
+.categories-container p{
+    padding: 40px;
+    color: #084177;
+
+}
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 50px;
+}
+
+.Product-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+   
+}
+
+.Product-container img{
+    display: flex;
+    justify-content: space-around;
+    align-content: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.Product-container .Product{
+    max-width: 20%;
+    height: auto;
+    border-style:solid;
+    border-color:#084177;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+    font-size: x-large;
+    color: #084177;
+}
+
+.text2{
+    display: flex;
+    justify-content:left;
+    align-items: start;
+    padding: 70px;
+    color: #084177;
+    font-size: 24px;
+    
+}
+
+footer{
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    padding: 80px;
+
+}
+
+.footer-container{
+    background: linear-gradient(135deg, #1A1A1A, #2A2A2A);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:300px;
+}
+
+.footer-container .foot1{
+    background: linear-gradient(135deg, #1A1A1A, #2A2A2A);
+
+}
 
