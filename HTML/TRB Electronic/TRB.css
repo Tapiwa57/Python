@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0%;
-    background-color: #E0E0E0;
+
 }
 
 nav{
@@ -185,30 +185,100 @@ li{
 }
 
 footer{
-    background-color: #1A1A1A;
     display: flex;
     justify-content: center;
-    align-content:center ;
+    align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
     max-width: 100%;
-    height: auto;
-    padding: 80px;
-
+    height:auto;
+    color: white;
+    background: linear-gradient(135deg, #1A1A1A, #2A2A2A);
+    padding: 50px 10px 50px 10px;
 }
 
 .footer-container{
-    background: linear-gradient(135deg, #1A1A1A, #2A2A2A);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    gap:300px;
+    max-width: 100%;
+    height:auto;
+    gap: 300px;
 }
 
-.footer-container .foot1{
-    background: linear-gradient(135deg, #1A1A1A, #2A2A2A);
-
+div .social-icon{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    gap: 30px;
 }
+
+div .follow{
+    text-align: center;
+}
+
+#search-bar{
+    padding: 8px;
+    border: 5px solid #084177;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#search-btn{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #084177;
+    color: #E0E0E0;
+    cursor: pointer;
+}
+
+#search-btn:hover{
+    background-color: black;
+}
+
+.footer-container p{
+    font-size:larger;
+}
+
+.sign{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    
+}
+
+.sign button{
+    width: 30%;
+    height: 6vh;
+    border: 3px solid #084177;
+    color:#084177;
+    border-radius: 20px;
+}
+
+.sign button:hover{
+    background-color: #1A1A1A;
+    color: white;
+}
+.sign img{
+    filter: 
+    invert(100%);
+}
+.blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px 30px 50px;
+    background-color: #084177;
+    font-size: small;
+    font-weight: none;
+    color: white;
+}
+
+
 
