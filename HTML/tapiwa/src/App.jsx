@@ -1,5 +1,5 @@
+// App.jsx
 import React from 'react';
-import './App.css'; // <-- Import your custom styles
 
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
@@ -7,6 +7,7 @@ import PortfolioSection from './components/PortfolioSection';
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import ImageCard from './components/card';
 
 function App() {
   return (
@@ -17,8 +18,12 @@ function App() {
       <AboutSection />
       <ContactSection />
       <Footer />
+
     </>
   );
 }
 
 export default App;
+
+
+
