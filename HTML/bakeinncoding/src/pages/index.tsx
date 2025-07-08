@@ -81,7 +81,7 @@ export default function Home() {
       Bringing you the <br />best value at the <br />best prices
     </h1>
     <p className="text-5xl sm:text-xl md:text-3xl mb-5">
-      The freshest sandwiches you can make are <br />with Baker’s inn soft white loaf.
+      The freshest sandwiches you can make are <br />with Baker&apos;s inn soft white loaf.
     </p>
     <button
       className="border-0 text-lg sm:text-1xl md:text-1xl px-10 font-bold w-60 h-20 mt-5"

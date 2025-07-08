@@ -12,7 +12,7 @@ export default function Kidscorner(){
                 <div className="flex justify-center content-between flex-wrap flex-col">
                     <h1 className="text-5xl font-extrabold py-10">Spaceship Maze</h1>
                     <p className="text-3xl mb-5">Help the spaceship through the maze to get <br /> back to earth. Move through levels with <br /> increasing difficulty; each puzzle starts the ship <br />in a different location. </p>
-                    <p className="text-3xl mb-5">Develop kids’ skills in strategizing, spatial <br />awareness, hand-eye coordination, problem <br />solving and more! Free to play, priceless for <br /> learning.</p>
+                    <p className="text-3xl mb-5">Develop kids&apos; skills in strategizing, spatial <br />awareness, hand-eye coordination, problem <br />solving and more! Free to play, priceless for <br /> learning.</p>
                     <a href="url=https%3A%2F%2Ftoytheater.com%2Fmaze%2F"><button className="border-0 text-2xl font-bold px-10 py-4 mt-5 text-white bg-[hsla(40,40%,50%,1)] w-80 h-20">PLAY GAMES</button></a>
                 </div>
                 <div>

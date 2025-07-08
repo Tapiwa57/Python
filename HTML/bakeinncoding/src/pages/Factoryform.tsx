@@ -28,17 +28,17 @@ export default function Factoryform() {
         </div>
 
         <div className="w-90">
-          <label htmlFor="residentTown" className="block font-semibold text-gray-700 mb-1">Organization’s Resident Town</label>
+          <label htmlFor="residentTown" className="block font-semibold text-gray-700 mb-1">Organization&apos;s Resident Town</label>
           <input type="text" id="residentTown" name="residentTown" className="w-full p-2 border rounded bg-yellow-50" required/>
         </div>
 
         <div className="w-90">
-          <label htmlFor="telephone" className="block font-semibold text-gray-700 mb-1">Contact Person’s Telephone</label>
+          <label htmlFor="telephone" className="block font-semibold text-gray-700 mb-1">Contact Person&apos;s Telephone</label>
           <input type="tel" id="telephone" name="telephone" className="w-full p-2 border rounded bg-yellow-50" required/>
         </div>
 
         <div className="w-90">
-          <label htmlFor="email" className="block font-semibold text-gray-700 mb-1">Contact Person’s E-mail</label>
+          <label htmlFor="email" className="block font-semibold text-gray-700 mb-1">Contact Person&apos;s E-mail</label>
           <input type="email" id="email" name="email" className="w-full p-2 border rounded bg-yellow-50" required/>
         </div>
 

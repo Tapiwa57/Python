@@ -31,7 +31,7 @@ export default function ContactUs(){
                 </div>
             </div>
             <div className="text-blue-950 flex justify-center content-center flex-col mb-30">
-                <h1 className="text-5xl font-extrabold text-center p-20">List Of Baker’s Inn Depots</h1>
+                <h1 className="text-5xl font-extrabold text-center p-20">List Of Baker&apos;s Inn Depots</h1>
                 <div className="flex justify-center flex-row gap-20 border-t-4 border-gray-600 w-300 max-w-full ml-125">
                     <div>
                         <h2 className="text-2xl font-extrabold p-5">Depot</h2>

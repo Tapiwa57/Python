@@ -36,7 +36,7 @@ export default function Footer(){
           <Link href="/AboutUs" className="flex mt-0 text-2xl">About Us</Link>
           <Link href="/Products" className="flex mt-0 text-2xl">Products</Link>
           <Link href="/Recipes" className="flex mt-0 text-2xl">Recipes</Link>
-          <Link href="/Kidscorner" className="flex mt-0 text-2xl">Kid's corner</Link>
+          <Link href="/Kidscorner" className="flex mt-0 text-2xl">Kid&apos;s corner</Link>
           <Link href="/ContactUs"><button className="border-0 p-0 mt-0 text-2xl">Contacts Us</button></Link>
         </div>
       </div>

@@ -9,7 +9,7 @@ export default function Donationform() {
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-md mt-10">
           {/* Close icon */}
          <h2 className="text-2xl font-bold text-center text-indigo-900 mb-6">Request Product Donation</h2>
-         <h3 className="text-center text-indigo-900">You can apply for product donations by completing this form, we will contact you should your application be successful. Please bear in mind that we will need at least 3 weeks’ notice to the date of your event</h3>
+         <h3 className="text-center text-indigo-900">You can apply for product donations by completing this form, we will contact you should your application be successful. Please bear in mind that we will need at least 3 weeks&apos; notice to the date of your event</h3>
         <form  id="factoryTourForm" className="space-y-6">
           <Link href="/"><button className=""><Image className="flex justify-end content-end ml-200 -mt-15 " src="/images/Group-23.png" alt="#" width={25} height={25}/></button></Link>
       <div className="flex justify-center content-center flex-wrap flex-row gap-10">
@@ -29,7 +29,7 @@ export default function Donationform() {
         </div>
 
         <div className="w-90">
-          <label htmlFor="residentTown" className="block font-semibold text-gray-700 mb-1">Organization’s Resident Town</label>
+          <label htmlFor="residentTown" className="block font-semibold text-gray-700 mb-1">Organization&apos;s Resident Town</label>
           <input type="text" id="residentTown" name="residentTown" className="w-full p-2 border rounded bg-yellow-50" required/>
         </div>
 
@@ -39,7 +39,7 @@ export default function Donationform() {
         </div>
 
         <div className="w-90">
-          <label htmlFor="email" className="block font-semibold text-gray-700 mb-1">Contact Person’s E-mail</label>
+          <label htmlFor="email" className="block font-semibold text-gray-700 mb-1">Contact Person&apos;s E-mail</label>
           <input type="email" id="email" name="email" className="w-full p-2 border rounded bg-yellow-50" required/>
         </div>
 
